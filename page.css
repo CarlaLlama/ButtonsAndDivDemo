@@ -1,0 +1,45 @@
+* {
+	border: 0;
+	padding: 0;
+	margin: 0;
+}
+
+div {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-weight: bold;
+	font-family: big john;
+	height: 100vh;
+	width: 100%;
+}
+
+h2 {
+	font-size: 68px;
+	background: #eee;
+	padding: 8px 24px;
+	border-radius: 16px;
+}
+
+div:nth-child(1) {
+	background-image: url(code-cheri-large.png);
+	background-size: cover;
+}
+
+div:nth-child(2) {
+	background-color: maroon;
+	background-image: url(yoco.png);
+	background-size: cover;
+}
+
+div:nth-child(3) {
+	height: 500px;
+	background-image: url(image.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+
+}
+
+div:nth-child(4) {
+	background-color: aquamarine;
+}
